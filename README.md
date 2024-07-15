@@ -28,7 +28,7 @@ Backend: Contains all Spring Boot server-side code and database logic.
  5. Config: Configuration files, including database connection settings.
 
 ## To run this project locally, follow these steps:
-1. Clone the repository: git clone https://github.com/yourusername/react-portfolio 
+1. Clone the repository: git clone https://github.com/goshy29/nextjs-spring-postgresql.git 
 2. Open the project with your code editor(IntelliJ IDEA) and open New Terminal
 3. To install frontend dependencies, at the Terminal navigate to "cd src/main/frontend" and run: npm install
 4. Ensure PostgreSQL is installed and running
