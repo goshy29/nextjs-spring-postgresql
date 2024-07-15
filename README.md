@@ -9,7 +9,7 @@ This Full-Stack Project which i called IronMuscle with Next.js, Spring Boot and 
 
 ## Technologies Used:
 1. Frontend: Next.js, React.js, CSS.
-2. Backend: Node.js, Express.js (for API routes).
+2. Backend: Java, Spring Boot.
 3. Database: PostgreSQL, Spring Data JPA.
 4. State Management: React Hooks.
 5. Routing: Next.js Pages Router.
