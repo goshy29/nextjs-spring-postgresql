@@ -42,3 +42,14 @@ Backend: Contains all Spring Boot server-side code and database logic.
 2. name: John Doe
 3. email: testmail@gmail.com
 4. experience: Look, I’m no professional athlete, nor will I ever be. I go to CrossFit because I love the community and I feel better when I work out. My motivation is internal. I’ve found that like running a marathon , most of the battle is competing with what’s inside your own head. You have to mentally tell yourself you can do it, trying a complicated movement, or even just finishing the workout.
+
+## PostgreSQL Connection:
+You will find this connection settings at directory "src/main/resources/application.properties" into the spring project.
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/database \
+spring.datasource.username=username \
+spring.datasource.password=password 
+
+Replace that connection properties("database", "username", "password") with your own database credentials for PostgreSQL.
+
+**Note: At the root directory of the spring project you will find file "blogs_create_table_script.txt" that include creating table script. Be sure that you will run first this script into PostgreSQL before starting using this application.**
